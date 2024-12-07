@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 93954c75c1bb01f448e5c450738f0af9
+guid: d5489a026ffe3ba4ab835ba6768aebd5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1328516255302607398
-    second: UIButtonEdge_0
+      213: -8612975125611759693
+    second: UIButtonEdge-export_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -48,10 +48,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UIButtonEdge_0
+      name: UIButton_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 320
-        height: 64
+        width: 63
+        height: 63
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 22, y: 23, z: 22, w: 22}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 622e4a3de76df6210800000000000000
-      internalID: 1328516255302607398
+      spriteID: 8473eb088c1217c4395e13c743530f66
+      internalID: 1148839267
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 61ceb30379bd15b48afbc37c92814382
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      UIButtonEdge_0: 1328516255302607398
+      UIButton_0: 1148839267
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
