@@ -1,6 +1,7 @@
 /*
  * SceneLoader 클래스는 씬을 로드합니다.
- * 나중에 로드할 씬이 많아지면 SceneLoad(int i)나 String sceneName으로 해서 로드할 씬을 정할 수 있도록 하면 좋습니다.
+ * 씬을 로드하는 버튼에 스크립트를 넣고, 로드할 SceneName을 적습니다.
+ * 이후 버튼의 On Click() 이벤트에 해당하는 버튼을 넣어주고, SceneLoad() 함수를 호출합니다.
  */
 
 using UnityEngine;
@@ -8,8 +9,9 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
+    public string sceneName;
     public void SceneLoad()
     {
-        SceneManager.LoadScene("GamePhone"); //street 씬을 로드
+        SceneManager.LoadScene(sceneName); //오브젝트에서 적어둔 씬을 로드
     }
 }
